@@ -8,6 +8,7 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 ```sh
 provider "aws" {
+  profile = "web1"
   region     = "us-east-1"
   access_key = "PUT-YOUR-ACCESS-KEY-HERE"
   secret_key = "PUT-YOUR-SECRET-KEY-HERE"
